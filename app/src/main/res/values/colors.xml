@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#00B7FF</color>
+    <color name="bluetua">#005EFF</color>
+    <color name="hitam">#000000</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="backgroud">#F0EEEE</color>
+
+</resources>

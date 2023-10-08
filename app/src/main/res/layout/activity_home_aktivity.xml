@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeAktivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<!--card 1-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_pantai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pantai"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_pantai"
+                    android:layout_centerInParent="true"
+                    android:text="Pantai"
+                    android:textColor="@color/putih"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_pantai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Pantai Soa Nabire"
+                    android:layout_below="@+id/iv_pantai"/>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="READ MORE"
+                    android:backgroundTint="@color/blue"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/tv_pantai"/>
+
+                <ImageView
+                    android:id="@+id/iv_fav"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/heart"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_pantai"/>
+
+                <ImageView
+                    android:id="@+id/iv_share"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/share"
+                    android:layout_below="@+id/tv_pantai"
+                    android:layout_toLeftOf="@+id/iv_fav"/>
+
+                <ImageView
+                    android:id="@+id/Profile"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/user"
+                    android:layout_below="@+id/tv_pantai"
+                    android:layout_toRightOf="@+id/button"/>
+
+                <TextView
+                    android:id="@+id/userprofile"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Dika"
+                    android:layout_below="@+id/tv_pantai"
+                    android:layout_toRightOf="@+id/Profile"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+<!--card 2-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card1"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_Airterjun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/airterjun"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_Airterjun"
+                    android:layout_centerInParent="true"
+                    android:text="AirTerjun"
+                    android:textColor="@color/putih"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_Airterjun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="AirTerjun SOA Nabire"
+                    android:layout_below="@+id/iv_Airterjun" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="READ MORE"
+                    android:backgroundTint="@color/blue"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/tv_Airterjun"/>
+
+                <ImageView
+                    android:id="@+id/iv_fav2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/heart"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_Airterjun"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/share"
+                    android:layout_below="@+id/tv_Airterjun"
+                    android:layout_toLeftOf="@+id/iv_fav2"/>
+
+                <ImageView
+                    android:id="@+id/Profile2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/user"
+                    android:layout_below="@+id/tv_Airterjun"
+                    android:layout_toRightOf="@+id/button2"/>
+
+                <TextView
+                    android:id="@+id/userprofile2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Dika"
+                    android:layout_below="@+id/tv_Airterjun"
+                    android:layout_toRightOf="@+id/Profile2"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+<!--card 3-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card2"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_pantai2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pantaiwagi"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/iv_pantai2"
+                    android:layout_centerInParent="true"
+                    android:text="AirTerjun"
+                    android:textColor="@color/putih"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/tv_pantai2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="AirTerjun SOA Nabire"
+                    android:layout_below="@+id/iv_pantai2" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="READ MORE"
+                    android:backgroundTint="@color/blue"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/tv_pantai2"/>
+
+                <ImageView
+                    android:id="@+id/iv_fav3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/heart"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="10dp"
+                    android:scaleType="fitXY"
+                    android:layout_below="@+id/tv_pantai2"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/share"
+                    android:layout_below="@+id/tv_pantai2"
+                    android:layout_toLeftOf="@+id/iv_fav3"/>
+
+                <ImageView
+                    android:id="@+id/Profile3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/user"
+                    android:layout_below="@+id/tv_pantai2"
+                    android:layout_toRightOf="@+id/button3"/>
+
+                <TextView
+                    android:id="@+id/userprofile3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Dika"
+                    android:layout_below="@+id/tv_pantai2"
+                    android:layout_toRightOf="@+id/Profile3"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/card3"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/ftampil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
